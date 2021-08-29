@@ -8,11 +8,20 @@ For more information on Partitions check out the wikipedia [article](https://en.
 # The Algorithm
 The algorithm used was independantly discovered by me. It is not particularly novel or complex but it is correct.
 
-# Use Info
-The Python implementation uses [caching](https://docs.python.org/3/library/functools.html#functools.lru_cache) and the Java implementation does not.
-\
-\
-I would therefore recommend using the Python implementation.
+# Use Information
+Clone the repo:
+```bash
+git clone https://github.com/aviradinsky/partition.git
+```
+Get the Python code:
+```bash
+wget https://raw.githubusercontent.com/aviradinsky/partition/main/python/partition.py
+```
+Get the Java code:
+```bash
+wget https://raw.githubusercontent.com/aviradinsky/partition/main/java/Partition.java
+```
+The Python implementation uses [caching](https://docs.python.org/3/library/functools.html#functools.lru_cache) so it is much faster than the Java implementation.
 # Inspiration
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NjCIq58rZ8I/0.jpg)](https://www.youtube.com/watch?vNjCIq58rZ8I)
 
