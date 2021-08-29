@@ -14,7 +14,7 @@ class Partition{
         if(x == n) return 1;
         if(x-n <= n) return partition(x-n);
         int ret = 0;
-        for(int i = 1; i <= n; i++)ret += partitionXBaseN(x-n, i);
+        for(int i = 1; i <= n; i++) ret += partitionXBaseN(x-n, i);
         return ret;
     }
 }
