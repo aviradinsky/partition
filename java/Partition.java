@@ -1,7 +1,4 @@
 class Partition{
-    public static void main(String[] args) {
-        for(int i = 0; i < 100; i ++) System.out.println(i + "," + partition(i));
-    }
     static int partition(int x){
         /* 
         returns the partition of integer 'x'
