@@ -7,7 +7,12 @@ For more information on Partitions check out the wikipedia [article](https://en.
 
 # The Algorithm
 The algorithm used was independantly discovered by me. It is not particularly novel or complex but it is correct.
+
+# Use Info
+The Python implementation uses [caching](https://docs.python.org/3/library/functools.html#functools.lru_cache) and the Java implementation does not.
 \
+\
+I would therefore recommend using the Python implementation.
 # Inspiration
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NjCIq58rZ8I/0.jpg)](https://www.youtube.com/watch?vNjCIq58rZ8I)
 
